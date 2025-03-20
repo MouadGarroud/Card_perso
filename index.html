@@ -1,0 +1,37 @@
+<!-- Mouad Garroud -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Info Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grid-card-personnel">
+    <div class="card-personnel" id="infoCard">
+      <img class="headshot" src="ex.png" alt="Profile Picture">
+      <h1>John Doe</h1>
+      <h2>Web Developer</h2>
+      <div class="email">📧 <a href="mailto:johndoe@example.com">johndoe@example.com</a></div>
+      <div class="phone">📞 <a href="tel:+1234567890">+1234567890</a></div>
+      <div class="location">📍 New York, USA</div>
+      <div class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>🌐 Web Development (HTML, CSS, JavaScript, PHP)</li>
+          <li>🖥️ Software Development (Java, Python, C, .NET)</li>
+          <li>📊 Database Management (MySQL, SQL Server)</li>
+          <li>🔐 Cybersecurity & Data Encryption</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <button id="downloadBtn">📄 Download as PDF</button>
+
+  <!-- Import html2pdf Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
